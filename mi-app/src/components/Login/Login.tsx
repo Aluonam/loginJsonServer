@@ -36,8 +36,8 @@ const Login = () => {
 
     
   return (
-    <div>
-      <h2 className={styleLogin.title}>Form example</h2>
+    <div className={styleLogin.boxForm}>
+      <h2 className={styleLogin.title}>Form example:</h2><p> juan 123456</p>
         <form className={styleLogin.form} onSubmit={handleSubmit(onSubmit)}>
 
           <div className={styleLogin.formItem}>
