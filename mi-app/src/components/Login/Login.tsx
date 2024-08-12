@@ -23,8 +23,9 @@ const Login = () => {
         );
   
         if (userData) {
-          setServerError(''); // Limpiar cualquier error previo
+          setServerError(''); // Limpiar 
           console.log('Inicio de sesión exitoso:', userData.username);
+          setServerError('¡Enhorabuena! Has iniciado sesión correctamente');
         } else {
           setServerError('Usuario o contraseña incorrectos');
         }
