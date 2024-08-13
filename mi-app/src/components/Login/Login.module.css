@@ -1,7 +1,28 @@
+.boxForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .form{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
+}
+
+.formItem{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    color: rgba(255, 235, 205, 0.823);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.warnErr{
+    color: bisque;
+    font-family:'Courier New', Courier, monospace;
+    font-size: small;
 }
